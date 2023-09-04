@@ -2,11 +2,6 @@
   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
   "metadata": {
-    "_generator": {
-      "name": "bicep",
-      "version": "0.20.4.51522",
-      "templateHash": "14955719000423184958"
-    },
     "name": "Storage Accounts",
     "description": "This module deploys a Storage Account.",
     "owner": "Azure/module-maintainers"
@@ -552,13 +547,7 @@
         "template": {
           "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
           "contentVersion": "1.0.0.0",
-          "metadata": {
-            "_generator": {
-              "name": "bicep",
-              "version": "0.20.4.51522",
-              "templateHash": "12642833522973709137"
-            }
-          },
+          "metadata": {},
           "parameters": {
             "principalIds": {
               "type": "array",
@@ -748,11 +737,6 @@
           "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
           "contentVersion": "1.0.0.0",
           "metadata": {
-            "_generator": {
-              "name": "bicep",
-              "version": "0.20.4.51522",
-              "templateHash": "13560297539192628062"
-            },
             "name": "Private Endpoints",
             "description": "This module deploys a Private Endpoint.",
             "owner": "Azure/module-maintainers"
@@ -948,11 +932,6 @@
                   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
                   "contentVersion": "1.0.0.0",
                   "metadata": {
-                    "_generator": {
-                      "name": "bicep",
-                      "version": "0.20.4.51522",
-                      "templateHash": "17831763001460207830"
-                    },
                     "name": "Private Endpoint Private DNS Zone Groups",
                     "description": "This module deploys a Private Endpoint Private DNS Zone Group.",
                     "owner": "Azure/module-maintainers"
@@ -1085,13 +1064,7 @@
                 "template": {
                   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
                   "contentVersion": "1.0.0.0",
-                  "metadata": {
-                    "_generator": {
-                      "name": "bicep",
-                      "version": "0.20.4.51522",
-                      "templateHash": "11548486149222715894"
-                    }
-                  },
+                  "metadata": {},
                   "parameters": {
                     "principalIds": {
                       "type": "array",
@@ -1293,11 +1266,6 @@
           "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
           "contentVersion": "1.0.0.0",
           "metadata": {
-            "_generator": {
-              "name": "bicep",
-              "version": "0.20.4.51522",
-              "templateHash": "2581396185828179457"
-            },
             "name": "Storage Account Management Policies",
             "description": "This module deploys a Storage Account Management Policy.",
             "owner": "Azure/module-maintainers"
@@ -1421,11 +1389,6 @@
           "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
           "contentVersion": "1.0.0.0",
           "metadata": {
-            "_generator": {
-              "name": "bicep",
-              "version": "0.20.4.51522",
-              "templateHash": "17498007234218946474"
-            },
             "name": "Storage Account Local Users",
             "description": "This module deploys a Storage Account Local User, which is used for SFTP authentication.",
             "owner": "Azure/module-maintainers"
@@ -1593,11 +1556,6 @@
           "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
           "contentVersion": "1.0.0.0",
           "metadata": {
-            "_generator": {
-              "name": "bicep",
-              "version": "0.20.4.51522",
-              "templateHash": "16838270897726250953"
-            },
             "name": "Storage Account blob Services",
             "description": "This module deploys a Storage Account Blob Service.",
             "owner": "Azure/module-maintainers"
@@ -1930,11 +1888,6 @@
                   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
                   "contentVersion": "1.0.0.0",
                   "metadata": {
-                    "_generator": {
-                      "name": "bicep",
-                      "version": "0.20.4.51522",
-                      "templateHash": "7500144031846073123"
-                    },
                     "name": "Storage Account Blob Containers",
                     "description": "This module deploys a Storage Account Blob Container.",
                     "owner": "Azure/module-maintainers"
@@ -2096,11 +2049,6 @@
                           "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
                           "contentVersion": "1.0.0.0",
                           "metadata": {
-                            "_generator": {
-                              "name": "bicep",
-                              "version": "0.20.4.51522",
-                              "templateHash": "5668549883344653702"
-                            },
                             "name": "Storage Account Blob Container Immutability Policies",
                             "description": "This module deploys a Storage Account Blob Container Immutability Policy.",
                             "owner": "Azure/module-maintainers"
@@ -2234,13 +2182,7 @@
                         "template": {
                           "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
                           "contentVersion": "1.0.0.0",
-                          "metadata": {
-                            "_generator": {
-                              "name": "bicep",
-                              "version": "0.20.4.51522",
-                              "templateHash": "8600687658951622621"
-                            }
-                          },
+                          "metadata": {},
                           "parameters": {
                             "principalIds": {
                               "type": "array",
@@ -2472,11 +2414,6 @@
           "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
           "contentVersion": "1.0.0.0",
           "metadata": {
-            "_generator": {
-              "name": "bicep",
-              "version": "0.20.4.51522",
-              "templateHash": "17282775888269025572"
-            },
             "name": "Storage Account File Share Services",
             "description": "This module deploys a Storage Account File Share Service.",
             "owner": "Azure/module-maintainers"
@@ -2692,11 +2629,6 @@
                   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
                   "contentVersion": "1.0.0.0",
                   "metadata": {
-                    "_generator": {
-                      "name": "bicep",
-                      "version": "0.20.4.51522",
-                      "templateHash": "15634855845265993886"
-                    },
                     "name": "Storage Account File Shares",
                     "description": "This module deploys a Storage Account File Share.",
                     "owner": "Azure/module-maintainers"
@@ -2837,13 +2769,7 @@
                         "template": {
                           "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
                           "contentVersion": "1.0.0.0",
-                          "metadata": {
-                            "_generator": {
-                              "name": "bicep",
-                              "version": "0.20.4.51522",
-                              "templateHash": "17068545632348399169"
-                            }
-                          },
+                          "metadata": {},
                           "parameters": {
                             "principalIds": {
                               "type": "array",
@@ -3076,11 +3002,6 @@
           "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
           "contentVersion": "1.0.0.0",
           "metadata": {
-            "_generator": {
-              "name": "bicep",
-              "version": "0.20.4.51522",
-              "templateHash": "3707030790801090324"
-            },
             "name": "Storage Account Queue Services",
             "description": "This module deploys a Storage Account Queue Service.",
             "owner": "Azure/module-maintainers"
@@ -3264,11 +3185,6 @@
                   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
                   "contentVersion": "1.0.0.0",
                   "metadata": {
-                    "_generator": {
-                      "name": "bicep",
-                      "version": "0.20.4.51522",
-                      "templateHash": "7293459815655804615"
-                    },
                     "name": "Storage Account Queues",
                     "description": "This module deploys a Storage Account Queue.",
                     "owner": "Azure/module-maintainers"
@@ -3363,13 +3279,7 @@
                         "template": {
                           "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
                           "contentVersion": "1.0.0.0",
-                          "metadata": {
-                            "_generator": {
-                              "name": "bicep",
-                              "version": "0.20.4.51522",
-                              "templateHash": "16848435230262465953"
-                            }
-                          },
+                          "metadata": {},
                           "parameters": {
                             "principalIds": {
                               "type": "array",
@@ -3599,11 +3509,6 @@
           "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
           "contentVersion": "1.0.0.0",
           "metadata": {
-            "_generator": {
-              "name": "bicep",
-              "version": "0.20.4.51522",
-              "templateHash": "16178057085724361046"
-            },
             "name": "Storage Account Table Services",
             "description": "This module deploys a Storage Account Table Service.",
             "owner": "Azure/module-maintainers"
@@ -3785,11 +3690,6 @@
                   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
                   "contentVersion": "1.0.0.0",
                   "metadata": {
-                    "_generator": {
-                      "name": "bicep",
-                      "version": "0.20.4.51522",
-                      "templateHash": "3732027241762478422"
-                    },
                     "name": "Storage Account Table",
                     "description": "This module deploys a Storage Account Table.",
                     "owner": "Azure/module-maintainers"

@@ -2,11 +2,6 @@
   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
   "metadata": {
-    "_generator": {
-      "name": "bicep",
-      "version": "0.20.4.51522",
-      "templateHash": "18406669488132418296"
-    },
     "name": "Deployment Scripts",
     "description": "This module deploys a Deployment Script.",
     "owner": "Azure/module-maintainers"

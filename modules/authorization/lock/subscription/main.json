@@ -2,11 +2,6 @@
   "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
   "metadata": {
-    "_generator": {
-      "name": "bicep",
-      "version": "0.20.4.51522",
-      "templateHash": "10927394621764774821"
-    },
     "name": "Authorization Locks (Subscription scope)",
     "description": "This module deploys an Authorization Lock at a Subscription scope.",
     "owner": "Azure/module-maintainers"
