@@ -11,9 +11,10 @@ This section provides an overview of the library's feature set.
 
 # Feature table
 
-| # |  |
-| - | - |
-| Sum | | | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| # | Module | Status | RBAC | Locks | Tags | Diag | PE | PIP | # children | # lines |
+| - | - | - | - | - | - | - | - | - | - | - |
+| 1 | maintenance<p>maintenance-configuration | [![Maintenance - MaintenanceConfigurations](https://github.com/jdrepo/ResourceModulesJD/workflows/Maintenance%20-%20MaintenanceConfigurations/badge.svg)](https://github.com/jdrepo/ResourceModulesJD/actions/workflows/ms.maintenance.maintenanceconfigurations.yml) | :white_check_mark: | :white_check_mark: | :white_check_mark: |  |  |  |  | 104 |
+| Sum | | | 1 | 1 | 1 | 0 | 0 | 0 | 0 | 104 |
 
 ## Legend
 
