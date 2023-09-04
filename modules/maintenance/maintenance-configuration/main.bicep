@@ -73,7 +73,7 @@ resource defaultTelemetry 'Microsoft.Resources/deployments@2021-04-01' = if (ena
   }
 }
 
-resource maintenanceConfiguration 'Microsoft.Maintenance/maintenanceConfigurations@2021-05-01' = {
+resource maintenanceConfiguration 'Microsoft.Maintenance/maintenanceConfigurations@2023-04-01' = {
   location: location
   name: name
   tags: tags
