@@ -34,6 +34,7 @@ param lock string = ''
   'InGuestPatch'
   'SQLDB'
   'SQLManagedInstance'
+  'Resource'
 ])
 param maintenanceScope string = 'Host'
 
@@ -56,6 +57,9 @@ param tags object = {}
   'Public'
 ])
 param visibility string = ''
+
+@description('Optional. Configuration for VM guest patching.')
+param installPatches object = {}
 
 // =============== //
 //   Deployments   //
@@ -83,6 +87,7 @@ resource maintenanceConfiguration 'Microsoft.Maintenance/maintenanceConfiguratio
     maintenanceWindow: maintenanceWindow
     namespace: namespace
     visibility: visibility
+    installPatches: (maintenanceScope == 'InGuestPatch') ? installPatches : null
   }
 }
 
