@@ -2,6 +2,11 @@
   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
   "metadata": {
+    "_generator": {
+      "name": "bicep",
+      "version": "0.20.4.51522",
+      "templateHash": "17563066367289258796"
+    },
     "name": "Virtual Network Subnets",
     "description": "This module deploys a Virtual Network Subnet.",
     "owner": "Azure/module-maintainers"
@@ -192,7 +197,13 @@
         "template": {
           "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
           "contentVersion": "1.0.0.0",
-          "metadata": {},
+          "metadata": {
+            "_generator": {
+              "name": "bicep",
+              "version": "0.20.4.51522",
+              "templateHash": "11765890115463110578"
+            }
+          },
           "parameters": {
             "principalIds": {
               "type": "array",

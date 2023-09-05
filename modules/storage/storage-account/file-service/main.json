@@ -2,6 +2,11 @@
   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
   "metadata": {
+    "_generator": {
+      "name": "bicep",
+      "version": "0.20.4.51522",
+      "templateHash": "17282775888269025572"
+    },
     "name": "Storage Account File Share Services",
     "description": "This module deploys a Storage Account File Share Service.",
     "owner": "Azure/module-maintainers"
@@ -217,6 +222,11 @@
           "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
           "contentVersion": "1.0.0.0",
           "metadata": {
+            "_generator": {
+              "name": "bicep",
+              "version": "0.20.4.51522",
+              "templateHash": "15634855845265993886"
+            },
             "name": "Storage Account File Shares",
             "description": "This module deploys a Storage Account File Share.",
             "owner": "Azure/module-maintainers"
@@ -357,7 +367,13 @@
                 "template": {
                   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
                   "contentVersion": "1.0.0.0",
-                  "metadata": {},
+                  "metadata": {
+                    "_generator": {
+                      "name": "bicep",
+                      "version": "0.20.4.51522",
+                      "templateHash": "17068545632348399169"
+                    }
+                  },
                   "parameters": {
                     "principalIds": {
                       "type": "array",
