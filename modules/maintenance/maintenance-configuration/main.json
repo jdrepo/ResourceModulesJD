@@ -5,7 +5,7 @@
     "_generator": {
       "name": "bicep",
       "version": "0.20.4.51522",
-      "templateHash": "7033287643729886362"
+      "templateHash": "10161989226842431805"
     },
     "name": "Maintenance Configurations",
     "description": "This module deploys a Maintenance Configuration.",
@@ -111,7 +111,7 @@
       "type": "object",
       "defaultValue": {},
       "metadata": {
-        "description": "Optional. Configuration settings for VM guest patching."
+        "description": "Optional. Configuration settings for VM guest patching with Azure Update Manager."
       }
     }
   },

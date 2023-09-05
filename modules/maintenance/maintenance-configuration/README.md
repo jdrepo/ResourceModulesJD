@@ -32,7 +32,7 @@ This module deploys a Maintenance Configuration.
 | :-- | :-- | :-- | :-- | :-- |
 | `enableDefaultTelemetry` | bool | `True` |  | Enable telemetry via a Globally Unique Identifier (GUID). |
 | `extensionProperties` | object | `{object}` |  | Gets or sets extensionProperties of the maintenanceConfiguration. |
-| `installPatches` | object | `{object}` |  | Configuration settings for VM guest patching. |
+| `installPatches` | object | `{object}` |  | Configuration settings for VM guest patching with Azure Update Manager. |
 | `location` | string | `[resourceGroup().location]` |  | Location for all Resources. |
 | `lock` | string | `''` | `['', CanNotDelete, ReadOnly]` | Specify the type of lock. |
 | `maintenanceScope` | string | `'Host'` | `[Extension, Host, InGuestPatch, OSImage, Resource, SQLDB, SQLManagedInstance]` | Gets or sets maintenanceScope of the configuration. |
