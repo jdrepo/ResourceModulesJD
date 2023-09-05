@@ -5,7 +5,7 @@
     "_generator": {
       "name": "bicep",
       "version": "0.20.4.51522",
-      "templateHash": "5884430609446518367"
+      "templateHash": "18358208889338187838"
     },
     "name": "Maintenance Configurations",
     "description": "This module deploys a Maintenance Configuration.",
@@ -60,7 +60,8 @@
         "Extension",
         "InGuestPatch",
         "SQLDB",
-        "SQLManagedInstance"
+        "SQLManagedInstance",
+        "Resource"
       ],
       "metadata": {
         "description": "Optional. Gets or sets maintenanceScope of the configuration."
@@ -105,6 +106,13 @@
       "metadata": {
         "description": "Optional. Gets or sets the visibility of the configuration. The default value is 'Custom'."
       }
+    },
+    "installPatches": {
+      "type": "object",
+      "defaultValue": {},
+      "metadata": {
+        "description": "Optional. Configuration for VM guest patching."
+      }
     }
   },
   "resources": [
@@ -133,7 +141,8 @@
         "maintenanceScope": "[parameters('maintenanceScope')]",
         "maintenanceWindow": "[parameters('maintenanceWindow')]",
         "namespace": "[parameters('namespace')]",
-        "visibility": "[parameters('visibility')]"
+        "visibility": "[parameters('visibility')]",
+        "installPatches": "[if(equals(parameters('maintenanceScope'), 'InGuestPatch'), parameters('installPatches'), null())]"
       }
     },
     {
