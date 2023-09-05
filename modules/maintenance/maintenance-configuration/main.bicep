@@ -58,7 +58,7 @@ param tags object = {}
 ])
 param visibility string = ''
 
-@description('Optional. Configuration for VM guest patching.')
+@description('Optional. Configuration settings for VM guest patching.')
 param installPatches object = {}
 
 // =============== //
