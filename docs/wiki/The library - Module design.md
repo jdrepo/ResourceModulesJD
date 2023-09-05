@@ -624,7 +624,7 @@ Test file (`main.test.bicep`) guidelines:
 - References to dependencies should be implemented using resource references in combination with outputs. In other words: You should not hardcode any references into the module template's deployment. Instead use references such as `nestedDependencies.outputs.managedIdentityPrincipalId`
 - If any diagnostic resources (e.g., a Log Analytics workspace) are required for a test scenario, you can reference the centralized `modules/.shared/.templates/diagnostic.dependencies.bicep` template. It will also provide you with all outputs you'd need.
 
-> :scroll: [Example of test file](https://github.com/Azure/ResourceModules/blob/main/modules/AnalysisServices/servers/.test/common/main.test.bicep)
+> :scroll: [Example of test file](https://github.com/Azure/ResourceModules/blob/main/modules/analysis-services/server/.test/common/main.test.bicep)
 
 Dependency file (`dependencies.bicep`) guidelines:
 
